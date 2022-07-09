@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\PF-Citamedica.csproj",
       "projectName": "PF-Citamedica",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\PF-Citamedica.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
