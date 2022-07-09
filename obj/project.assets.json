@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Ariela\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\PF-Citamedica.csproj",
+      "projectUniqueName": "C:\\Users\\Ariela\\Source\\Repos\\PF-Citamedica3\\PF-Citamedica.csproj",
       "projectName": "PF-Citamedica",
-      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\PF-Citamedica.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica111\\obj\\",
+      "projectPath": "C:\\Users\\Ariela\\Source\\Repos\\PF-Citamedica3\\PF-Citamedica.csproj",
+      "packagesPath": "C:\\Users\\Ariela\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ariela\\Source\\Repos\\PF-Citamedica3\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ariela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
