@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj": {}
+    "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj": {
+    "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj",
         "projectName": "PF-Citamedica",
-        "projectPath": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj",
-        "packagesPath": "C:\\Users\\wance\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\PF-Citamedica.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\OneDrive - INTEC\\C#\\proyecto final\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\wance\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
