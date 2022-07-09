@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace PF_Citamedica
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
