@@ -28,6 +28,42 @@
     <Compile Update="A-Secretaria.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="M-AgregarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-AgregarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Citas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Cosnsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-EditarConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-EditarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Factura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M-Secretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_addFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="M_Editar-Secretatia.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="WAG-menuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
