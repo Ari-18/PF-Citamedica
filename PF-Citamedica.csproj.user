@@ -4,6 +4,9 @@
     <Compile Update="A-addFactura.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="A-Editar-SecreA.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="A-EditarFact.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -11,9 +14,6 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Agregar-secreA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Editar-SecreA.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="A-Doctor.cs">
@@ -28,10 +28,34 @@
     <Compile Update="A-Secretaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Wan-AddCita.cs">
+    <Compile Update="WAG-menuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-AgregarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-AgregarConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-AgregarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Wan-Cita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-EditarCita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-EditarConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-EditarPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Wan-Paciente.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

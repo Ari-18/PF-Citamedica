@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OpN4Nv6SPb05yEWKuU+HHVDWxEEwKusTXFsRnxkYp2u7UPL9tu79HQyshdbRhs8FIa7DVavBtQDPZJVxUjwrHw==",
+  "dgSpecHash": "noMlepu6JvgHqO7PgPHLtplclF37D7CMyJZEa3b7DlvyJaurePM8PbP3bkaiR+5MQmQtQ5pRSZK5NM9Z88YJBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\git\\PF-Citamedica.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
