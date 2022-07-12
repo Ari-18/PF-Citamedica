@@ -26,5 +26,17 @@ namespace PF_Citamedica
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Wan_AgregarConsulta AgregarConsulta = new Wan_AgregarConsulta();
+            AgregarConsulta.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Wan_EditarConsulta EditarConsulta = new Wan_EditarConsulta();
+            EditarConsulta.ShowDialog();
+        }
     }
 }

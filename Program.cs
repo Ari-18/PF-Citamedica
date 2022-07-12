@@ -12,6 +12,9 @@ namespace PF_Citamedica
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new AForm1());
+            //Application.Run(new Wan_Cita());
+            //Application.Run(new Wan_Consulta());
+            //Application.Run(new Wan_Paciente());
         }
     }
 }

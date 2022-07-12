@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj": {}
+    "C:\\Users\\wance\\source\\repos\\PF-Citamedica\\PF-Citamedica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj": {
+    "C:\\Users\\wance\\source\\repos\\PF-Citamedica\\PF-Citamedica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj",
+        "projectUniqueName": "C:\\Users\\wance\\source\\repos\\PF-Citamedica\\PF-Citamedica.csproj",
         "projectName": "PF-Citamedica",
-        "projectPath": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\PF-Citamedica.csproj",
+        "projectPath": "C:\\Users\\wance\\source\\repos\\PF-Citamedica\\PF-Citamedica.csproj",
         "packagesPath": "C:\\Users\\wance\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wance\\Source\\Repos\\PF-Citamedica\\obj\\",
+        "outputPath": "C:\\Users\\wance\\source\\repos\\PF-Citamedica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

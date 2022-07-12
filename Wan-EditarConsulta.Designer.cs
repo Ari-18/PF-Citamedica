@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button3 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -43,55 +44,66 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(686, 479);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 59);
+            this.button3.TabIndex = 18;
+            this.button3.Text = "Eliminar";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Script MT Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.label6.Location = new System.Drawing.Point(328, 28);
+            this.label6.Location = new System.Drawing.Point(299, 55);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(191, 33);
-            this.label6.TabIndex = 9;
+            this.label6.TabIndex = 16;
             this.label6.Text = "Consulta medica";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(696, 317);
+            this.button1.Location = new System.Drawing.Point(686, 384);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 59);
-            this.button1.TabIndex = 8;
+            this.button1.TabIndex = 15;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PF_Citamedica.Properties.Resources.logotipo;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 503);
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 536);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(99, 97);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.doctoricon;
-            this.pictureBox1.Location = new System.Drawing.Point(734, 13);
+            this.pictureBox1.Location = new System.Drawing.Point(709, 13);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(123, 104);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
             // panel1
@@ -107,11 +119,11 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(191, 79);
+            this.panel1.Location = new System.Drawing.Point(162, 106);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(464, 446);
-            this.panel1.TabIndex = 5;
+            this.panel1.Size = new System.Drawing.Size(453, 439);
+            this.panel1.TabIndex = 12;
             // 
             // textBox5
             // 
@@ -139,7 +151,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(260, 196);
+            this.textBox3.Location = new System.Drawing.Point(260, 198);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
@@ -222,25 +234,13 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Consulta";
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(696, 400);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 59);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
             // Wan_EditarConsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(244)))), ((int)(((byte)(243)))));
-            this.ClientSize = new System.Drawing.Size(869, 597);
-            this.Controls.Add(this.button2);
+            this.ClientSize = new System.Drawing.Size(844, 631);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
@@ -259,6 +259,7 @@
 
         #endregion
 
+        private Button button3;
         private Label label6;
         private Button button1;
         private PictureBox pictureBox2;
@@ -274,6 +275,5 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private Button button2;
     }
 }
