@@ -11,10 +11,12 @@ namespace PF_Citamedica
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new AForm1());
+            //Application.Run(new AForm1());
             //Application.Run(new Wan_Cita());
             //Application.Run(new Wan_Consulta());
             //Application.Run(new Wan_Paciente());
+            //Application.Run(new A_Factura());
+            //Application.Run(new Form4());
         }
     }
 }

@@ -16,5 +16,17 @@ namespace PF_Citamedica
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            A_addFactura AgregarFactuADM = new A_addFactura();
+            AgregarFactuADM.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            A_EditarFact EditFactADM = new A_EditarFact();
+            EditFactADM.ShowDialog();
+        }
     }
 }

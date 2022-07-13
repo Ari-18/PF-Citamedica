@@ -44,7 +44,14 @@ namespace PF_Citamedica
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form3 AgregarDoctor = new Form3();
+            AgregarDoctor.ShowDialog();
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 EditarDoctor = new Form2();
+            EditarDoctor.ShowDialog();
         }
     }
 }

@@ -31,5 +31,17 @@ namespace PF_Citamedica
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Agregar_secreA AgreSecreADM = new Agregar_secreA();
+            AgreSecreADM.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Editar_SecreA EditarSecreADM = new Editar_SecreA();
+            EditarSecreADM.ShowDialog();
+        }
     }
 }
