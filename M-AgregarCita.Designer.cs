@@ -133,7 +133,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 36);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Agregar";
+            this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = false;
             // 
             // button2

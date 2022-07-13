@@ -34,6 +34,8 @@ namespace PF_Citamedica
 
         private void button1_Click(object sender, EventArgs e)
         {
+            M_EditarConsulta editarConsulta = new M_EditarConsulta();
+            editarConsulta.ShowDialog(); 
 
         }
     }

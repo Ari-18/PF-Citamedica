@@ -21,5 +21,20 @@ namespace PF_Citamedica
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            M_AgregarPaciente agregarPaciente = new M_AgregarPaciente();
+            agregarPaciente.ShowDialog();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            M_EditarPaciente editarPaciente = new M_EditarPaciente();
+            editarPaciente.ShowDialog();
+
+
+        }
     }
 }

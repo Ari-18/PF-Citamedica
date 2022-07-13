@@ -16,5 +16,12 @@ namespace PF_Citamedica
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            M_AgregarCita agregarCita = new M_AgregarCita();
+            agregarCita.ShowDialog(); 
+
+        }
     }
 }

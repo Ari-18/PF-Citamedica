@@ -17,6 +17,7 @@ namespace PF_Citamedica
             //Application.Run(new Wan_Paciente());
             //Application.Run(new A_Factura());
             //Application.Run(new Form4());
+            //Application.Run(new M_Secretaria());
         }
     }
 }
