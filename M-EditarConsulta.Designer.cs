@@ -183,10 +183,10 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.doctoricon;
-            this.pictureBox1.Location = new System.Drawing.Point(604, 12);
+            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.medical_appointment__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(595, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(108, 78);
+            this.pictureBox1.Size = new System.Drawing.Size(117, 95);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;

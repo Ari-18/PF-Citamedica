@@ -292,7 +292,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.secretaria;
+            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.secretary__1_1;
             this.pictureBox1.Location = new System.Drawing.Point(453, 44);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(231, 197);

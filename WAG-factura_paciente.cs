@@ -16,5 +16,10 @@ namespace PF_Citamedica
         {
             InitializeComponent();
         }
+
+        private void WAG_factura_paciente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

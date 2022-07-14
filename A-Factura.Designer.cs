@@ -102,8 +102,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.WhatsApp_Image_2022_07_09_at_5_32_42_PM;
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(231)))), ((int)(((byte)(242)))));
+            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.receipt;
             this.pictureBox1.Location = new System.Drawing.Point(394, 61);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(152, 157);
