@@ -10,13 +10,13 @@
     <Compile Update="A-EditarFact.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="A-Factura.cs">
+    <Compile Update="menúPrincipal_admin\A-Factura.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Agregar-secreA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="A-Doctor.cs">
+    <Compile Update="menúPrincipal_admin\A-Doctor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="A-EditarDoc.cs">
@@ -34,13 +34,13 @@
     <Compile Update="M-AgregarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="M-Citas.cs">
+    <Compile Update="menúPrincipal_secre\M-Citas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="M-Cosnsulta.cs">
+    <Compile Update="menúPrincipal_secre\M-Cosnsulta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="M-Doctor.cs">
+    <Compile Update="menúPrincipal_secre\M-Doctor.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="M-EditarConsulta.cs">
@@ -49,10 +49,10 @@
     <Compile Update="M-EditarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="M-Factura.cs">
+    <Compile Update="menúPrincipal_secre\M-Factura.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="M-Paciente.cs">
+    <Compile Update="menúPrincipal_secre\M-Paciente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="M-Secretaria.cs">
@@ -64,10 +64,10 @@
     <Compile Update="M_Editar-Secretatia.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-cita_paciente.cs">
+    <Compile Update="menúPrincipal_paciente\WAG-cita_paciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-menuPrincipal.cs">
+    <Compile Update="menúPrincipal_admin\WAG-menuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Wan-AgregarCita.cs">
@@ -79,10 +79,10 @@
     <Compile Update="Wan-AgregarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Wan-Cita.cs">
+    <Compile Update="menúPrincipal_admin\Wan-Cita.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Wan-Consulta.cs">
+    <Compile Update="menúPrincipal_admin\Wan-Consulta.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Wan-EditarCita.cs">
@@ -94,7 +94,7 @@
     <Compile Update="Wan-EditarPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Wan-Paciente.cs">
+    <Compile Update="menúPrincipal_admin\Wan-Paciente.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

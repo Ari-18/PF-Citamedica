@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="logotipo de proyecto final (1).ico" />
+    <Content Include="Resources\logotipo de proyecto final %281%29.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,19 +19,25 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="WAG_usuario_paciente.cs">
+    <Compile Update="menúPrincipal_paciente\WAG-menuPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-factura_paciente.cs">
+    <Compile Update="menúPrincipal_secre\WAG-menuPrincipal_secre.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-consulta_paciente.cs">
+    <Compile Update="menúPrincipal_paciente\WAG_usuario_paciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-doctor_paciente.cs">
+    <Compile Update="menúPrincipal_paciente\WAG-factura_paciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="WAG-cita_paciente.cs" />
+    <Compile Update="menúPrincipal_paciente\WAG-consulta_paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG-doctor_paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG-cita_paciente.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>

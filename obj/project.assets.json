@@ -47,11 +47,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica444\\PF-Citamedica.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\proyecto\\PF-Citamedica.csproj",
       "projectName": "PF-Citamedica",
-      "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica444\\PF-Citamedica.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Downloads\\proyecto\\PF-Citamedica.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Source\\Repos\\PF-Citamedica444\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Downloads\\proyecto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,7 +103,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
