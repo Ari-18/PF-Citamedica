@@ -13,10 +13,12 @@ namespace PF_Citamedica
 {
     public partial class WG_secre : Form
     {
+        string nombre1;
 
-        public WG_secre()
+        public WG_secre(string nombre1)
         {
             InitializeComponent();
+            this.nombre1 = nombre1;
         }
 
 
@@ -59,6 +61,10 @@ namespace PF_Citamedica
         private void iconPictureBox1_Click(object sender, EventArgs e)
         {
             //aqui falta el enlace para configuracion 
+        }
+        private void WG_secre_Load(object sender, EventArgs e)
+        {
+            label4.Text += nombre1;
         }
         #region metodo para enlazar
 

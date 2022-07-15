@@ -13,10 +13,11 @@ namespace PF_Citamedica
 {
     public partial class WG_menuPaciente : Form
     {
-
-        public WG_menuPaciente()
+        string nombre1;
+        public WG_menuPaciente(string nombre1)
         {
             InitializeComponent();
+            this.nombre1 = nombre1;
         }
 
 
@@ -59,6 +60,10 @@ namespace PF_Citamedica
         private void iconPictureBox1_Click(object sender, EventArgs e)
         {
             //aqui falta el enlace para configuracion 
+        }
+        private void WG_menuPaciente_Load(object sender, EventArgs e)
+        {
+            label4.Text += nombre1;
         }
         #region metodo para enlazar
 

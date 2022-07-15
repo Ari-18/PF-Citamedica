@@ -71,23 +71,23 @@ namespace PF_Citamedica
             {
                 this.DialogResult = DialogResult.OK;
 
-                WG_menuPrincipal frm = new WG_menuPrincipal();
-                frm.ShowDialog();
+                using (WG_menuPrincipal usuario = new WG_menuPrincipal(textBox1.Text))
+                usuario.ShowDialog();
 
             }
 
             else if (textBox1.Text == "secretaria" && textBox2.Text == "secretaria")
             {
 
-                WG_secre frm = new WG_secre();
-                frm.ShowDialog();
-               
+                using (WG_secre usuario = new WG_secre(textBox1.Text))
+                usuario.ShowDialog();
+
             }
 
             else if (textBox1.Text == "paciente" && textBox2.Text == "paciente")
             {
-                WG_menuPaciente frm = new WG_menuPaciente();
-                frm.ShowDialog();
+                using (WG_menuPaciente usuario = new WG_menuPaciente(textBox1.Text))
+                usuario.ShowDialog();
             }
 
             label1.Visible = true;
