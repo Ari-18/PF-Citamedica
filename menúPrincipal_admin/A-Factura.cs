@@ -81,5 +81,15 @@ namespace PF_Citamedica
         {
 
         }
+
+        private void textID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textformap_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
 namespace PF_Citamedica
 {
     public partial class M_Paciente : Form
@@ -31,8 +33,7 @@ namespace PF_Citamedica
 
         private void button2_Click(object sender, EventArgs e)
         {
-            M_EditarPaciente editarPaciente = new M_EditarPaciente();
-            editarPaciente.ShowDialog();
+            
 
 
         }

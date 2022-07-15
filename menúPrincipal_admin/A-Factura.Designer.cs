@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -41,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -76,6 +76,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(613, 324);
             this.panel1.TabIndex = 3;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(216, 90);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(156, 23);
+            this.dateTimePicker1.TabIndex = 12;
             // 
             // comboBox1
             // 
@@ -135,6 +142,7 @@
             this.textformap.Name = "textformap";
             this.textformap.Size = new System.Drawing.Size(156, 16);
             this.textformap.TabIndex = 6;
+            this.textformap.TextChanged += new System.EventHandler(this.textformap_TextChanged);
             // 
             // textID
             // 
@@ -144,6 +152,7 @@
             this.textID.Name = "textID";
             this.textID.Size = new System.Drawing.Size(156, 16);
             this.textID.TabIndex = 4;
+            this.textID.TextChanged += new System.EventHandler(this.textID_TextChanged);
             // 
             // label5
             // 
@@ -190,13 +199,6 @@
             this.label2.Size = new System.Drawing.Size(92, 19);
             this.label2.TabIndex = 0;
             this.label2.Text = "ID_Factura";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(216, 90);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(156, 23);
-            this.dateTimePicker1.TabIndex = 12;
             // 
             // A_Factura
             // 

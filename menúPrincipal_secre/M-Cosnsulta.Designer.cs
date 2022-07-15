@@ -43,6 +43,8 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -191,7 +193,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(90, 44);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Editar";
+            this.button1.Text = "Gestionar";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -216,12 +218,31 @@
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(610, 315);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(107, 23);
+            this.comboBox1.TabIndex = 12;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(646, 296);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(42, 15);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "Buscar";
+            // 
             // M_Cosnsulta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(244)))), ((int)(((byte)(243)))));
             this.ClientSize = new System.Drawing.Size(815, 494);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button1);
@@ -255,5 +276,7 @@
         private Button button1;
         private Label label6;
         private PictureBox pictureBox2;
+        private ComboBox comboBox1;
+        private Label label12;
     }
 }
