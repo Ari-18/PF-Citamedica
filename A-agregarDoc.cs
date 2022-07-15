@@ -14,8 +14,8 @@ namespace PF_Citamedica
 
     public partial class Form3 : Form
     {
-        string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
-        SqlConnection conexion = new SqlConnection();
+        static string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
+        SqlConnection conexion = new SqlConnection(conexionstring);
         public Form3()
         {
             InitializeComponent();
@@ -30,15 +30,18 @@ namespace PF_Citamedica
         {
             SqlCommand sqlCommand = new SqlCommand("insert into Doctor");
 
-            //string queryadd = "Insert into Chofer (cedula_chofer, Nombre_chofer, Apellido_chofer, Fecha_nacimiento) VALUES (@Cedula, @Nombre, @Apellido, @Fecha)";
-            //SqlCommand command = new SqlCommand(queryadd, conexion);
-            //command.Parameters.AddWithValue("@Cedula", textCedu.Text);
-            //command.Parameters.AddWithValue("@Nombre", textNom.Text);
-            //command.Parameters.AddWithValue("@Apellido", textApe.Text);
-            //command.Parameters.AddWithValue("@Fecha", textNac.Text);
-
-            //command.ExecuteNonQuery();
-            //MessageBox.Show("Doctor agregado ");
+            string queryadd = "Insert into Chofer (nombre, apellido, edad, Fecha_Nacimiento, Numero_telefono, Especialidad , horario ,sexo ) VALUES (@Nombre,  @Apellido, @Edad @Fecha, @Numero, @especialidad, @Horario, @Sexo)";
+            SqlCommand command = new SqlCommand(queryadd, conexion);
+            command.Parameters.AddWithValue("@Nombre", textBox2.Text);
+            command.Parameters.AddWithValue("@Apellido", textBox3.Text);
+            command.Parameters.AddWithValue("@Edad", textBox4.Text);
+            command.Parameters.AddWithValue("@Fecha", dateTimePicker1.Text);
+            command.Parameters.AddWithValue("@Numero", textBox6.Text);
+            command.Parameters.AddWithValue("@especialidad", textBox7.Text);
+            command.Parameters.AddWithValue("@Horario", textBox8.Text);
+            command.Parameters.AddWithValue("@Sexo", textsexo.Text);
+            command.ExecuteNonQuery();
+            MessageBox.Show("Doctor agregado ");
 
 
 
@@ -64,15 +67,15 @@ namespace PF_Citamedica
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //Conexion.Conectar();
-            //string queryde = "DELETE FROM Chofer WHERE cedula_chofer =@Cedula";
-            //SqlCommand command3 = new SqlCommand(queryde, Conexion.Conectar());
-            //command3.Parameters.AddWithValue("@Cedula", textCedu.Text);
+          
+            string queryde = "DELETE FROM nombre WHERE nombre= @Nombre ";
+            SqlCommand command3 = new SqlCommand(queryde, conexion);
+            command3.Parameters.AddWithValue("@Nombre", textBox2.Text);
 
-            //command3.ExecuteNonQuery();
+            command3.ExecuteNonQuery();
 
-            //MessageBox.Show("Chofer eliminado");
-            //dataGridView1.DataSource = llenado_grid();
+            MessageBox.Show("Doctor eliminado");
+           
         }
     }
 }
