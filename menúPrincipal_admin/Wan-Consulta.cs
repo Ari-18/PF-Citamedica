@@ -35,8 +35,12 @@ namespace PF_Citamedica
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Wan_EditarConsulta EditarConsulta = new Wan_EditarConsulta();
-            EditarConsulta.ShowDialog();
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

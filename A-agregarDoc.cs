@@ -68,7 +68,7 @@ namespace PF_Citamedica
         private void button3_Click(object sender, EventArgs e)
         {
           
-            string queryde = "DELETE FROM nombre WHERE nombre= @Nombre ";
+            string queryde = "DELETE FROM Doctor WHERE nombre= @Nombre ";
             SqlCommand command3 = new SqlCommand(queryde, conexion);
             command3.Parameters.AddWithValue("@Nombre", textBox2.Text);
 

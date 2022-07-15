@@ -69,7 +69,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(165, 501);
+            this.panel1.Size = new System.Drawing.Size(165, 526);
             this.panel1.TabIndex = 0;
             // 
             // label2
@@ -266,7 +266,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(165, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(719, 50);
+            this.panel3.Size = new System.Drawing.Size(741, 50);
             this.panel3.TabIndex = 1;
             // 
             // iconPictureBox1
@@ -292,7 +292,7 @@
             this.panel_principal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel_principal.Location = new System.Drawing.Point(165, 50);
             this.panel_principal.Name = "panel_principal";
-            this.panel_principal.Size = new System.Drawing.Size(719, 451);
+            this.panel_principal.Size = new System.Drawing.Size(741, 476);
             this.panel_principal.TabIndex = 2;
             // 
             // label4
@@ -314,7 +314,7 @@
             this.pictureBox2.Image = global::PF_Citamedica.Properties.Resources.logotipo;
             this.pictureBox2.Location = new System.Drawing.Point(215, 80);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(314, 259);
+            this.pictureBox2.Size = new System.Drawing.Size(336, 284);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -335,7 +335,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(231)))), ((int)(((byte)(242)))));
-            this.ClientSize = new System.Drawing.Size(884, 501);
+            this.ClientSize = new System.Drawing.Size(906, 526);
             this.Controls.Add(this.panel_principal);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);

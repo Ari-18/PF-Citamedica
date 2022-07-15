@@ -53,6 +53,7 @@ namespace PF_Citamedica
 
         private void iconButton6_Click(object sender, EventArgs e)
         {
+            abrir_form(new PF_Citamedica.Form4());
             // aquí falta el enlace para usuario
         }
 
