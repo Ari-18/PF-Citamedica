@@ -24,7 +24,7 @@ namespace PF_Citamedica
 
         public DataTable comboboxsearch()
         {
-            SqlDataAdapter command = new SqlDataAdapter("sp_comboboxcita", conexion);
+            SqlDataAdapter command = new SqlDataAdapter("sp_comboboxcita2", conexion);
             command.SelectCommand.CommandType = CommandType.StoredProcedure;
             DataTable tabla = new DataTable();
             command.Fill(tabla);
@@ -36,7 +36,7 @@ namespace PF_Citamedica
         {
 
             comboBox1.DataSource = comboboxsearch();
-            comboBox1.DisplayMember = "id_cita";
+            comboBox1.DisplayMember = "mes";
         }
 
         private void Wan_Cita_Load(object sender, EventArgs e)
@@ -60,14 +60,14 @@ namespace PF_Citamedica
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand("select id_cita, Fecha_cita, hora  from cita where id_cita = '" + comboBox1.Text + "'", conexion);
+            SqlCommand cmd2 = new SqlCommand("select id_cita, Fecha_cita, hora, mes  from cita where mes = '" + comboBox1.Text + "'", conexion);
             SqlDataReader reader2 = cmd2.ExecuteReader();
             if (reader2.Read() == true)
             {
-                textBox1.Text = reader2["id_cita"].ToString();
+                textid.Text = reader2["id_cita"].ToString();
                 dateTimePicker1.Text = reader2["Fecha_cita"].ToString();
-                dateTimePicker2.Text = reader2["hora"].ToString();
-
+                texthora.Text = reader2["hora"].ToString();
+                textmes.Text = reader2["mes"].ToString();
             }
             conexion.Close();
         }

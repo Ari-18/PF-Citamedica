@@ -24,7 +24,7 @@ namespace PF_Citamedica
 
         public DataTable comboboxsearch()
         {
-            SqlDataAdapter command = new SqlDataAdapter("sp_comboboxfact ", conexion);
+            SqlDataAdapter command = new SqlDataAdapter("sp_comboboxfactura", conexion);
             command.SelectCommand.CommandType = CommandType.StoredProcedure;
             DataTable tabla = new DataTable();
             command.Fill(tabla);
@@ -36,7 +36,7 @@ namespace PF_Citamedica
         {
 
             comboBox1.DataSource = comboboxsearch();
-            comboBox1.DisplayMember = "id_pago";
+            comboBox1.DisplayMember = "tipo_pago";
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -57,7 +57,7 @@ namespace PF_Citamedica
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             conexion.Open();
-            SqlCommand cmd2 = new SqlCommand("Select id_pago, Fecha_Pago, tipo_pago, monto from Factura where id_pago = '" + comboBox1.Text + "'", conexion);
+            SqlCommand cmd2 = new SqlCommand("Select id_pago, Fecha_Pago, tipo_pago, monto from Factura where tipo_pago = '" + comboBox1.Text + "'", conexion);
             SqlDataReader reader2 = cmd2.ExecuteReader();
             if (reader2.Read() == true)
             {

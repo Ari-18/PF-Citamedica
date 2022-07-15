@@ -30,8 +30,10 @@
         {
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.textmes = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.texthora = new System.Windows.Forms.TextBox();
+            this.textid = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,33 +57,52 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.dateTimePicker2);
+            this.panel1.Controls.Add(this.textmes);
+            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.texthora);
+            this.panel1.Controls.Add(this.textid);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Location = new System.Drawing.Point(43, 127);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(454, 237);
+            this.panel1.Size = new System.Drawing.Size(461, 255);
             this.panel1.TabIndex = 1;
             // 
-            // textBox1
+            // textmes
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(228)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(190, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 16);
-            this.textBox1.TabIndex = 5;
+            this.textmes.Location = new System.Drawing.Point(181, 203);
+            this.textmes.Name = "textmes";
+            this.textmes.Size = new System.Drawing.Size(128, 23);
+            this.textmes.TabIndex = 8;
             // 
-            // dateTimePicker2
+            // label5
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(181, 152);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(128, 23);
-            this.dateTimePicker2.TabIndex = 4;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
+            this.label5.Location = new System.Drawing.Point(51, 207);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(39, 19);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Mes";
+            // 
+            // texthora
+            // 
+            this.texthora.Location = new System.Drawing.Point(181, 160);
+            this.texthora.Name = "texthora";
+            this.texthora.Size = new System.Drawing.Size(128, 23);
+            this.texthora.TabIndex = 6;
+            // 
+            // textid
+            // 
+            this.textid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(228)))));
+            this.textid.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textid.Location = new System.Drawing.Point(181, 35);
+            this.textid.Name = "textid";
+            this.textid.Size = new System.Drawing.Size(128, 16);
+            this.textid.TabIndex = 5;
             // 
             // label3
             // 
@@ -141,7 +162,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(206)))));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(657, 207);
+            this.button1.Location = new System.Drawing.Point(549, 194);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 36);
             this.button1.TabIndex = 4;
@@ -152,7 +173,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(689, 285);
+            this.label12.Location = new System.Drawing.Point(573, 252);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(42, 15);
             this.label12.TabIndex = 11;
@@ -161,9 +182,9 @@
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(641, 320);
+            this.comboBox1.Location = new System.Drawing.Point(540, 287);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(107, 23);
+            this.comboBox1.Size = new System.Drawing.Size(120, 23);
             this.comboBox1.TabIndex = 13;
             // 
             // M_Citas
@@ -180,6 +201,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "M_Citas";
             this.Text = "M_Citas";
+            this.Load += new System.EventHandler(this.M_Citas_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -192,8 +214,7 @@
 
         private DateTimePicker dateTimePicker1;
         private Panel panel1;
-        private TextBox textBox1;
-        private DateTimePicker dateTimePicker2;
+        private TextBox textid;
         private Label label3;
         private Label label2;
         private Label label1;
@@ -202,5 +223,8 @@
         private Button button1;
         private Label label12;
         private ComboBox comboBox1;
+        private TextBox textmes;
+        private Label label5;
+        private TextBox texthora;
     }
 }

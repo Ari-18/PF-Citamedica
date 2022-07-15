@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace PF_Citamedica
 {
     public partial class M_Doctor : Form
     {
+        static string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
+        SqlConnection conexion = new SqlConnection(conexionstring);
         public M_Doctor()
         {
             InitializeComponent();
@@ -28,6 +32,11 @@ namespace PF_Citamedica
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
