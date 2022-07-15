@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 namespace PF_Citamedica
 {
 
-    public partial class Form3 : Form
+    public partial class WG_ver : Form
     {
         static string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
         SqlConnection conexion = new SqlConnection(conexionstring);
-        public Form3()
+        public WG_ver()
         {
             InitializeComponent();
         }

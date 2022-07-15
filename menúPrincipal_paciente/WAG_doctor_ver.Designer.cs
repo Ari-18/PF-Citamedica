@@ -1,6 +1,6 @@
 ﻿namespace PF_Citamedica
 {
-    partial class Form3
+    partial class WG_ver
     {
         /// <summary>
         /// Required designer variable.
@@ -49,9 +49,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -285,47 +282,11 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ID_Doctor";
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(611, 431);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(86, 35);
-            this.button3.TabIndex = 24;
-            this.button3.Text = "Eliminar";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(611, 375);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 38);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "Guardar";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(611, 315);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(86, 38);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Actualizar";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(60, 473);
+            this.button4.Location = new System.Drawing.Point(709, 467);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(86, 35);
             this.button4.TabIndex = 29;
@@ -333,20 +294,17 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Form3
+            // WG_ver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(244)))), ((int)(((byte)(243)))));
             this.ClientSize = new System.Drawing.Size(807, 514);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
-            this.Name = "Form3";
+            this.Name = "WG_ver";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Agregar Doctor";
             this.Load += new System.EventHandler(this.Form3_Load);
@@ -381,9 +339,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private Button button3;
-        private Button button1;
-        private Button button2;
         private TextBox textsexo;
         private Button button4;
     }

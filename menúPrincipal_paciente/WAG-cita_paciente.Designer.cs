@@ -30,11 +30,11 @@
         {
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -65,27 +65,22 @@
             this.panel1.Size = new System.Drawing.Size(454, 237);
             this.panel1.TabIndex = 1;
             // 
-            // label1
+            // textBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.label1.Location = new System.Drawing.Point(58, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 19);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "ID_Cita";
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(228)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Location = new System.Drawing.Point(190, 35);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(119, 16);
+            this.textBox1.TabIndex = 5;
             // 
-            // label2
+            // dateTimePicker2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.label2.Location = new System.Drawing.Point(44, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 19);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Fecha de la cita";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker2.Location = new System.Drawing.Point(181, 152);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(128, 23);
+            this.dateTimePicker2.TabIndex = 4;
             // 
             // label3
             // 
@@ -98,22 +93,27 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Hora de la cita";
             // 
-            // dateTimePicker2
+            // label2
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(181, 152);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(128, 23);
-            this.dateTimePicker2.TabIndex = 4;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
+            this.label2.Location = new System.Drawing.Point(44, 93);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 19);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Fecha de la cita";
             // 
-            // textBox1
+            // label1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(228)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(190, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(119, 16);
-            this.textBox1.TabIndex = 5;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bell MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
+            this.label1.Location = new System.Drawing.Point(58, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 19);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ID_Cita";
             // 
             // pictureBox1
             // 
@@ -158,7 +158,7 @@
             this.button2.Text = "Eliminar";
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // M_Citas
+            // WAG_cita_paciente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,8 +169,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "M_Citas";
-            this.Text = "M_Citas";
+            this.Name = "WAG_cita_paciente";
+            this.Text = "Citas";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

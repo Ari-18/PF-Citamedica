@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t0AxUm6Vq6aFaQcW0pny7tf1prttURK2Cfrh0+jpPzovV6U2Shu/pKWBgDKD+BPjeybcaQLniJBvHBnfSRlvRw==",
+  "dgSpecHash": "tHA2UvG4KKUd1KRbrN4iV+hzmNZQAM6MzXKIfvPCnJLyGKZMjM/Y5Svh6UwGYwM2sn0Q7F7J2QscOvlxMP/nyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\PF-Citamedica.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Downloads\\github\\PF-Citamedica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

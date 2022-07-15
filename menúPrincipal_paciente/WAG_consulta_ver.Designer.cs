@@ -1,6 +1,6 @@
 ﻿namespace PF_Citamedica
 {
-    partial class WAG_consulta_paciente
+    partial class WAG_consulta_ver
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -39,13 +42,42 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Script MT Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
+            this.label6.Location = new System.Drawing.Point(263, 34);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(150, 25);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Consulta medica";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PF_Citamedica.Properties.Resources.logotipo;
+            this.pictureBox2.Location = new System.Drawing.Point(1, 392);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(87, 73);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.doctoricon;
+            this.pictureBox1.Location = new System.Drawing.Point(621, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(108, 78);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
             // 
             // panel1
             // 
@@ -60,16 +92,16 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(163, 75);
+            this.panel1.Location = new System.Drawing.Point(144, 73);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(386, 324);
-            this.panel1.TabIndex = 0;
+            this.panel1.Size = new System.Drawing.Size(403, 329);
+            this.panel1.TabIndex = 5;
             // 
             // textBox5
             // 
             this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Location = new System.Drawing.Point(213, 265);
+            this.textBox5.Location = new System.Drawing.Point(229, 264);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(147, 34);
@@ -79,7 +111,7 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Location = new System.Drawing.Point(213, 205);
+            this.textBox4.Location = new System.Drawing.Point(229, 204);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(147, 35);
@@ -89,7 +121,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Location = new System.Drawing.Point(213, 148);
+            this.textBox3.Location = new System.Drawing.Point(229, 148);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(147, 34);
@@ -99,7 +131,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Location = new System.Drawing.Point(213, 85);
+            this.textBox2.Location = new System.Drawing.Point(228, 84);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(147, 32);
@@ -109,11 +141,10 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Location = new System.Drawing.Point(213, 24);
+            this.textBox1.Location = new System.Drawing.Point(229, 34);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(147, 16);
             this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -158,7 +189,6 @@
             this.label2.Size = new System.Drawing.Size(196, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "Descripcion de la consulta";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 
@@ -170,55 +200,38 @@
             this.label1.Size = new System.Drawing.Size(95, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID Consulta";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // pictureBox1
+            // button1
             // 
-            this.pictureBox1.Image = global::PF_Citamedica.Properties.Resources.medical_appointment__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(594, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(123, 85);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(142)))), ((int)(((byte)(205)))));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(608, 408);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 44);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Volver";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PF_Citamedica.Properties.Resources.logotipo;
-            this.pictureBox2.Location = new System.Drawing.Point(-7, 388);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(87, 73);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Script MT Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.label6.Location = new System.Drawing.Point(283, 37);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(150, 25);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Consulta medica";
-            // 
-            // WAG_consulta_paciente
+            // WAG_consulta_ver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(244)))), ((int)(((byte)(243)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(244)))), ((int)(((byte)(242)))));
+            this.ClientSize = new System.Drawing.Size(739, 464);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
-            this.Name = "WAG_consulta_paciente";
-            this.Text = "M_Cosnsulta";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "WAG_consulta_ver";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Agregar Consulta";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,6 +239,9 @@
 
         #endregion
 
+        private Label label6;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
         private Panel panel1;
         private TextBox textBox5;
         private TextBox textBox4;
@@ -237,8 +253,6 @@
         private Label label3;
         private Label label2;
         private Label label1;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private Label label6;
+        private Button button1;
     }
 }

@@ -15,10 +15,10 @@ namespace PF_Citamedica
             //Application.Run(new Wan_Cita());
             //Application.Run(new Wan_Consulta());
             //Application.Run(new Wan_Paciente());
-            Application.Run(new LOGUIN ());
+            //Application.Run(new LOGUIN ());
             //Application.Run(new Form4());
             //Application.Run(new M_Secretaria());
-            //Application.Run(new Wan_Consulta());
+            Application.Run(new WG_menuPaciente());
         }
     }
 }

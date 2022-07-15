@@ -7,27 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace PF_Citamedica
 {
-    public partial class W_AddCita : Form
+    public partial class WAG_consulta_ver : Form
     {
-        public W_AddCita()
+
+        static string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
+        SqlConnection conexion = new SqlConnection(conexionstring);
+        public WAG_consulta_ver()
         {
             InitializeComponent();
         }
 
-        private void W_AddCita_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
         }

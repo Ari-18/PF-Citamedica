@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\PF-Citamedica.csproj": {}
+    "C:\\Users\\Usuario\\Downloads\\github\\PF-Citamedica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\PF-Citamedica.csproj": {
+    "C:\\Users\\Usuario\\Downloads\\github\\PF-Citamedica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\PF-Citamedica.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Downloads\\github\\PF-Citamedica.csproj",
         "projectName": "PF-Citamedica",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\PF-Citamedica.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Downloads\\github\\PF-Citamedica.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\PF-Citamedica6\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Downloads\\github\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -67,7 +67,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

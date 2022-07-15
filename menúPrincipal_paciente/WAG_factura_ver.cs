@@ -11,11 +11,11 @@ using System.Data.SqlClient;
 
 namespace PF_Citamedica
 {
-    public partial class A_addFactura : Form
+    public partial class WAG_factura_ver : Form
     {
         static string conexionstring = "Server = LAPTOP-QRH23UM0\\SQLEXPRESS; database = citamedica ; integrated security = true ";
         SqlConnection conexion = new SqlConnection(conexionstring);
-        public A_addFactura()
+        public WAG_factura_ver()
         {
             InitializeComponent();
         }
@@ -62,7 +62,7 @@ namespace PF_Citamedica
             MessageBox.Show("Factura eliminado");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }

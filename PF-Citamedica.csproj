@@ -20,22 +20,28 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="menúPrincipal_paciente\WAG-menuPrincipal.cs">
+    <Compile Update="menúPrincipal_paciente\WAG_factura_ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG_factura_paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG_doctor_ver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG_doctor_paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG-menuPrincipal_paciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="menúPrincipal_paciente\WAG_consulta_ver.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="menúPrincipal_secre\WAG-menuPrincipal_secre.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="menúPrincipal_paciente\WAG_usuario_paciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="menúPrincipal_paciente\WAG-factura_paciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="menúPrincipal_paciente\WAG-consulta_paciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="menúPrincipal_paciente\WAG-doctor_paciente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="menúPrincipal_paciente\WAG-cita_paciente.cs" />

@@ -27,17 +27,17 @@ namespace PF_Citamedica
         
         private void iconButton1_Click(object sender, EventArgs e)
         {
-            abrir_form(new PF_Citamedica.WAG_cita_paciente());
+            abrir_form(new PF_Citamedica.Wan_Cita());
         }
         
         private void iconButton2_Click(object sender, EventArgs e)
         {
-            abrir_form(new PF_Citamedica.WAG_doctor_paciente());
+            abrir_form(new PF_Citamedica.WG_doctor());
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-            abrir_form(new PF_Citamedica.WAG_consulta_paciente());
+            abrir_form(new PF_Citamedica.WAG_consulta());
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
