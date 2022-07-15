@@ -19,8 +19,7 @@ namespace PF_Citamedica
 
         private void button1_Click(object sender, EventArgs e)
         {
-            M_Editar_Secretatia editarSecretatia = new M_Editar_Secretatia();
-            editarSecretatia.ShowDialog();
+            
 
 
         }

@@ -38,8 +38,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox7 = new System.Windows.Forms.TextBox();
@@ -56,6 +54,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label12 = new System.Windows.Forms.Label();
+            this.textsexo = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -158,8 +157,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.radioButton2);
-            this.panel2.Controls.Add(this.radioButton1);
+            this.panel2.Controls.Add(this.textsexo);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.textBox8);
             this.panel2.Controls.Add(this.textBox7);
@@ -175,31 +173,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(373, 197);
             this.panel2.TabIndex = 1;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.radioButton2.Location = new System.Drawing.Point(255, 169);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(80, 19);
-            this.radioButton2.TabIndex = 12;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Masculino";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(152)))), ((int)(((byte)(117)))), ((int)(((byte)(98)))));
-            this.radioButton1.Location = new System.Drawing.Point(135, 170);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(78, 19);
-            this.radioButton1.TabIndex = 11;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Femenino";
-            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // dateTimePicker1
             // 
@@ -352,6 +325,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(107, 23);
             this.comboBox1.TabIndex = 9;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label12
             // 
@@ -361,6 +335,15 @@
             this.label12.Size = new System.Drawing.Size(42, 15);
             this.label12.TabIndex = 10;
             this.label12.Text = "Buscar";
+            // 
+            // textsexo
+            // 
+            this.textsexo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(187)))), ((int)(((byte)(223)))));
+            this.textsexo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textsexo.Location = new System.Drawing.Point(163, 172);
+            this.textsexo.Name = "textsexo";
+            this.textsexo.Size = new System.Drawing.Size(118, 16);
+            this.textsexo.TabIndex = 11;
             // 
             // M_Paciente
             // 
@@ -399,8 +382,6 @@
         private Label label2;
         private Label label1;
         private Panel panel2;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
         private DateTimePicker dateTimePicker1;
         private TextBox textBox8;
         private TextBox textBox7;
@@ -417,5 +398,6 @@
         private PictureBox pictureBox1;
         private ComboBox comboBox1;
         private Label label12;
+        private TextBox textsexo;
     }
 }
